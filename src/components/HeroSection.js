@@ -7,8 +7,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/video/video.mp4' autoPlay loop muted />
-      <h1>BE A PART OF THE 21st CENTURY WORK REVOLUTION</h1>
-      <p>An on-demand platform to provide you with highly skilled professionals that suits your business needs.</p>
+      <h1>Find your business solution with our gig!</h1>
+      {/* <p>BE A PART OF THE 21st CENTURY WORK REVOLUTION</p> */}
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -24,14 +24,6 @@ function HeroSection() {
         >
           HIRE GIG
         </Button>
-        {/* <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          HIRE GIG <i className='far fa-play-circle' />
-        </Button> */}
       </div>
     </div>
   );

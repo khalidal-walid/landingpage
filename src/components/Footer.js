@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faLinkedin, faTwitter, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 function Footer() {
   return (
@@ -26,9 +26,6 @@ function Footer() {
           </a>
           <a href="https://www.instagram.com/giggers.my/" target="_blank">
             <h3><FontAwesomeIcon icon={faInstagram} color='white' /> </h3>
-          </a>
-          <a href="https://www.youtube.com/channel/UCHDrcok-A-g4E3zJgnuRQ8w" target="_blank">
-            <h3><FontAwesomeIcon icon={faYoutube} color='white' /> </h3>
           </a>
           </div>
           <small class='website-rights'>giggers © 2021</small>

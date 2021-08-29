@@ -3,8 +3,9 @@
   background: #fff;
 }
 
-h1 {
-  font-size: 2em;
+.cards h3 {
+  /* font-size: 2em; */
+  color: darkgray;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
