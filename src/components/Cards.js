@@ -8,7 +8,7 @@ import bg3 from './images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>What We Do</h1>
+      <h1>Why Are We Different?</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -27,6 +27,12 @@ function Cards() {
             <CardItem
               src={bg3}
               text='Community Engagement'
+              // label='Adrenaline'
+              path='/sign-up'
+            />
+                        <CardItem
+              src={bg3}
+              text='Platform for local gigs'
               // label='Adrenaline'
               path='/sign-up'
             />
