@@ -4,10 +4,7 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
-} from "../../data";
+} from "../portfolioList/data.js";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -21,18 +18,6 @@ export default function Portfolio() {
       id: "web",
       title: "Client",
     },
-    // {
-    //   id: "mobile",
-    //   title: "Mobile App",
-    // },
-    // {
-    //   id: "design",
-    //   title: "Design",
-    // },
-    // {
-    //   id: "content",
-    //   title: "Content",
-    // },
   ];
 
   useEffect(() => {
@@ -42,28 +27,20 @@ export default function Portfolio() {
         break;
       case "web":
         setData(webPortfolio);
-      //   break;
-      // case "mobile":
-      //   setData(mobilePortfolio);
-      //   break;
-      // case "design":
-      //   setData(designPortfolio);
-      //   break;
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
-      // default:
-      //   setData(featuredPortfolio);
+        break;
+      default:
+        setData(featuredPortfolio);
     }
   }, [selected]);
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Why you should join us?</h1>
+      <h1>FAQ</h1>
       <ul>
         {list.map((item) => (
           <PortfolioList
             title={item.title}
+            // titleGeneral={item.titleGeneral}
             desc={item.desc}
             active={selected === item.id}
             setSelected={setSelected}
@@ -72,14 +49,37 @@ export default function Portfolio() {
         ))}
       </ul>
       <div className="container">
+        <div className="tajuk">
+          {data.map((d) =>(
+            <h2>{d.titleGeneral}</h2>
+          ))}
+        </div>
         {data.map((d) => (
-          <div className="item">
-            <img
-              src={d.img}
+           <div className="item">
+             <img
+              src={d.imgGeneral}
               alt=""
             />
-            <h3>{d.title}</h3>
-            <p>{d.desc}</p>
+            <h4>{d.benefitGeneral}</h4>
+            <p>{d.descGeneral}</p>
+          </div>
+        ))}
+      </div>
+      <div className="container"> 
+        <div className="tajuk">
+          {data.map((d) =>(
+            <h2>{d.titleSpecific}</h2>
+          ))}
+        </div>
+
+        {data.map((d) => (
+           <div className="item">
+             <img
+              src={d.imgSpecific}
+              alt=""
+            />
+            <h4>{d.benefitSpecific}</h4>
+            <p>{d.descSpecific}</p>
           </div>
         ))}
       </div>

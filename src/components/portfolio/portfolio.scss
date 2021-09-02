@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import "../portfolioList/global.scss";
 
 .portfolio {
   background-color: white;
@@ -7,6 +7,18 @@
   align-items: center;
   margin-bottom: 10rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  .item-wrapper {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tajuk {
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+  }
 
   h1 {
     font-size: 2em;
@@ -35,6 +47,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 5em;
 
     @include mobile{
       width: 100%;
@@ -63,11 +76,11 @@
         height: auto;
       }
 
-      h3 {
+      h4 {
         // position: absolute;
         // position: relative;
         // position: inline;
-        font-size: 20px;
+        // font-size: 20px;
         color: #000;
         margin-bottom: 0.5em;
       }
@@ -75,6 +88,7 @@
       p {
         color: black;
         text-align: center;
+        font-size: 15px;
       }
 
       img {
