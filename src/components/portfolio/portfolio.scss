@@ -1,5 +1,9 @@
 @import "../portfolioList/global.scss";
 
+img {
+  margin-bottom: 2em;
+}
+
 .portfolio {
   background-color: white;
   display: flex;
@@ -18,10 +22,12 @@
     width: 100%;
     text-align: center;
     color: darkgray;
+    margin-bottom: 1em;
   }
 
   h1 {
-    font-size: 2em;
+    // font-size: 2em;
+    color: #00838a;
 
     @include mobile{
       font-size: 20px;
@@ -42,7 +48,7 @@
   }
 
   .container {
-    width: 70%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;

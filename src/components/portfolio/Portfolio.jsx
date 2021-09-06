@@ -35,7 +35,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>FAQ</h1>
+      {/* <h1>FAQ</h1> */}
       <ul>
         {list.map((item) => (
           <PortfolioList
@@ -51,7 +51,7 @@ export default function Portfolio() {
       <div className="container">
         <div className="tajuk">
           {data.map((d) =>(
-            <h2>{d.titleGeneral}</h2>
+            <h1>{d.titleGeneral}</h1>
           ))}
         </div>
         {data.map((d) => (
@@ -68,7 +68,7 @@ export default function Portfolio() {
       <div className="container"> 
         <div className="tajuk">
           {data.map((d) =>(
-            <h2>{d.titleSpecific}</h2>
+            <h1>{d.titleSpecific}</h1>
           ))}
         </div>
 

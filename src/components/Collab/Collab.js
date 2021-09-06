@@ -1,17 +1,17 @@
 import React from 'react';
 import './Collab.css';
-import unikl from '../images/unikl.png'
-import unisza from '../images/unisza.png'
-import uiam from '../images/uiam.png'
+import acer from '../images/acer.svg'
+import logitech from '../images/logitech.svg'
+import ramly from '../images/ramly.svg'
 
 function Cards() {
   return (
     <div className='collabs'>
-      <h3>Our Clients</h3>
+      <h3>Trusted by:</h3>
       <div className='collabs__container'>
-        <img src={unikl} alt={"unikl"} />
-        <img src={unisza} alt={"acer"} />
-        <img src={uiam} alt={"ramly"} />
+        <img src={logitech} alt={"logitech"} />
+        <img src={acer} alt={"acer"} />
+        <img src={ramly} alt={"ramly"} />
       </div>
       <hr/> 
     </div>

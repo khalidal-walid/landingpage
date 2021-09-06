@@ -13,22 +13,16 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={bg1}
-              text='Platform for local gigs'
-              // label='Mystery'
-              path='/Solutions'
-            />
-            <CardItem
               src={bg2}
               text='Upskilling & Reskilling Programs'
               // label='Adventure'
-              path='/Solutions'
+              path='/Community'
             />
             <CardItem
               src={bg3}
               text='Community Engagement'
               // label='Adrenaline'
-              path='/Solutions'
+              path='/Community'
             />
             {/* <CardItem
               src={bg3}

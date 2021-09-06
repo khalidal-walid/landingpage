@@ -1,28 +1,29 @@
-.collabs {
+.collab {
   padding: 4rem 10rem;
   background: #fff;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
-.collabs h3 {
+.collab h1 {
   /* font-size: 2em; */
   color: #00838a;
-  text-align: center;
+  text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 3em;
 }
 
-.collabs img {
-  width: 10%;
-  margin: 2em;
+.collab img {
+  width: 15%;
+  margin-right: 10em;
 }
 
-.collabs__container {
+.collab__container {
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: left;
   /* max-width: 1120px; */
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
 }
 
