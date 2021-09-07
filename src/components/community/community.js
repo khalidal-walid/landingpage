@@ -15,11 +15,7 @@ function about() {
           <h2>Helping students reach their potential employees.</h2>
           <p>There comes a time when every students needs to pivot its proposition or break job market, and we offer an event that are capable of achieving these goals. Via detailed research and standout speaker, we please to help our generation to expand their reach and help create lasting bonds with our community.</p>
         </div>
-        <div className="community-desc">
-          <h2>Free education for all.</h2>
-          <p>We build a connection from the ground up, or upgrade existing knowledge to cope with new demands with our youth. </p>
-        </div>
-        {/* <div class="testimoni">
+                <div class="testimoni">
           <div class="testimoni-container">
             <div class="testimoni-item">
               <h6>Adam Ramli.</h6>
@@ -37,7 +33,11 @@ function about() {
             <span>I am a shy person. But this webinar has taught me that an introvert can also perform amazingly anywhere! It's all about chanelling your confidence into the right place.</span>
             </div>
           </div>
-        </div> */}
+        </div>
+        <div className="community-desc">
+          <h2>Free education for all.</h2>
+          <p>We build a connection from the ground up, or upgrade existing knowledge to cope with new demands with our youth. </p>
+        </div>
       </div>
     </div>
   );

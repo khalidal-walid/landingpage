@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import Community from '../community/community';
+import Communityy from '../community/community';
+import Flippy from "../flipCard/Flippy";
 
-function Solutions() {
+function Community() {
   return (
     <>
-      <Community/>
+      <Communityy/>
+      <Flippy/>
     </>
   );
 }
 
-export default Solutions;
+export default Community;

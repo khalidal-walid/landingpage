@@ -11,6 +11,10 @@ function HeroSection() {
       {/* <p>BE A PART OF THE 21st CENTURY WORK REVOLUTION</p> */}
       <div className='hero-btns'>
         <Button
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://docs.google.com/forms/d/1p0YPDryVPUn8BbiXQyGISufI_ALBqkKYoV8t7vSWon8/edit?usp=sharing', "_blank")
+              }}
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
@@ -21,6 +25,10 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          onClick={(e) => {
+            e.preventDefault();
+            window.open('https://docs.google.com/forms/d/1SF5o4LyEvtesdQAqRTdilv6UXxL21LHXRlcRw2K9rVo/edit?usp=sharing', "_blank")
+            }}
         >
           HIRE GIG
         </Button>

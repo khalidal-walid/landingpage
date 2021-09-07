@@ -14,22 +14,22 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={bg2}
-              text='Upskilling & Reskilling Programs'
+              text='Platform for businesses to find gigs'
               // label='Adventure'
               path='/Community'
             />
             <CardItem
               src={bg3}
-              text='Community Engagement'
+              text='Upskilling & reskilling professional courses'
               // label='Adrenaline'
               path='/Community'
             />
-            {/* <CardItem
+            <CardItem
               src={bg3}
-              text='Platform for local gigs'
+              text='Community engagement'
               // label='Adrenaline'
               path='/sign-up'
-            /> */}
+            />
           </ul>
         </div>
       </div>

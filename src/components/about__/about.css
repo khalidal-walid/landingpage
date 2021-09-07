@@ -1,20 +1,36 @@
+.about-desc {
+  justify-content: center;
+  align-items: center;
+}
+
 .card-container {
   letter-spacing: 2px;
 }
 
-.about-title h1{
+/* .about-title h1{
   font-size: 8em;
   color: #00838a;
   float: left;
   margin:0.5em 1em;
   text-align: left;
   line-height: 0.7em;
-}
+} */
 
 .about-desc h2 {
-  float: right;
-  margin:1em;
+  /* float: right; */
+  margin:1em 10em;
   text-align: justify;
   line-height: 1.5em;
-  width: 70%;
+}
+
+.video-giggers {
+  padding-top: 50%;
+  position: relative;
+  background-color: aqua;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

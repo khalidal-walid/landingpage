@@ -34,12 +34,14 @@
 }
 
 .testimoni {
-  display: inline-block;
+  /* display: inline-block; */
+  /* display: inline-grid; */
   border-radius: 5px;
   margin: 10px 0 75px 20px;
-  background-color: #00838a;
-  color: white;
+  /* background-color: #00838a; */
+  color: black;
   /* padding: 0 10em; */
+  display: none;
 }
 
 .testimoni-item p {
@@ -53,8 +55,8 @@
 }
 
 .testimoni-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  /* display: grid; */
+  /* grid-template-columns: repeat(1, 1fr); */
   /* padding: 10px; */
 }
 .testimoni-item {

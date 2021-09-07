@@ -3,7 +3,6 @@ import '../../App.css';
 import Ceo from '../ceo/ceo';
 import AboutUs from '../about__/about';
 import Misvis from '../misvis/misvis';
-import Collabb from '../Collabb/Collabb'
 import Cards from '../Cards/Cards';
 
 function About() {
@@ -12,7 +11,6 @@ function About() {
       {/* <Ceo /> */}
       <AboutUs />
       <Misvis/>
-      <Collabb/>
       <Cards/>
     </>
   );
