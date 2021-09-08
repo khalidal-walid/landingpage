@@ -4,31 +4,26 @@ import CardItem from './CardItem';
 import bg1 from '../images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg'
 import bg2 from '../images/neonbrand-1-aA2Fadydc-unsplash.jpg'
 import bg3 from '../images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg'
+import { Link } from 'react-router-dom';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Why Are We Different?</h1>
+      <h1>What We Do</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
+            <CardItem 
               src={bg2}
-              text='Platform for businesses to find gigs'
+              text='Connecting businesses with their desired professional gigs'
               // label='Adventure'
-              path='/Community'
+              path='/About'
             />
             <CardItem
               src={bg3}
-              text='Upskilling & reskilling professional courses'
+              text='Professional courses to upskill and re-skill gigs'
               // label='Adrenaline'
-              path='/Community'
-            />
-            <CardItem
-              src={bg3}
-              text='Community engagement'
-              // label='Adrenaline'
-              path='/sign-up'
+              path='/About'
             />
           </ul>
         </div>

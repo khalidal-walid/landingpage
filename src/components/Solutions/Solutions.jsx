@@ -13,15 +13,15 @@ export default function Solutions() {
   const list = [
     {
       id: "featured",
-      title: "How to hire gigs",
+      title: "Gigify Your Business",
     },
     {
       id: "web",
-      title: "How to earn money",
+      title: "Gigify Your Career",
     },
     {
       id: "pro",
-      title: "Professional course"
+      title: "Professional Courses"
     }
   ];
 
@@ -76,6 +76,10 @@ export default function Solutions() {
               <h1>{d.titleGeneral}</h1>
               <h4>{d.benefitGeneral}</h4>
               <p>{d.descGeneral}</p>
+              <h4>{d.benefitGeneral2}</h4>
+              <p>{d.descGeneral2}</p>
+              <h4>{d.benefitGeneral3}</h4>
+              <p>{d.descGeneral3}</p>
             </div>
           </div>
         ))}
@@ -87,6 +91,10 @@ export default function Solutions() {
               <h1>{d.titleSpecific}</h1>
               <h4>{d.benefitSpecific}</h4>
               <p>{d.descSpecific}</p>
+              <h4>{d.benefitSpecific2}</h4>
+              <p>{d.descSpecific2}</p>
+              <h4>{d.benefitSpecific3}</h4>
+              <p>{d.descSpecific3}</p>
             </div>
             <div className="item-img">
             <img
@@ -97,6 +105,23 @@ export default function Solutions() {
           </div>
         ))}
       </div>
+      {/* <div className="container"> 
+        {data.map((d) => (
+          <div className="items">
+            <div className="item-img">
+              <img
+                src={d.img}
+                alt=""
+              />
+            </div>
+            <div className="item-desc">
+              <h1>{d.title}</h1>
+              <h4>{d.benefit}</h4>
+              <p>{d.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div> */}
       <div className="testimoni"> 
       <h1>Testimonials from others</h1>
         {data.map((d) => (

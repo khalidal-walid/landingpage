@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import Communityy from '../community/community';
-// import Flippy from "../flipCard/Flippy";
+import News from '../Cards/News';
+import CSR from '../Cards/csr';
+import Flippy from "../Flip/App";
 
 function Community() {
   return (
     <>
-      <Communityy/>
-      {/* <Flippy/> */}
+    <CSR/>
+    <Flippy/>
+    <News/>
     </>
   );
 }
