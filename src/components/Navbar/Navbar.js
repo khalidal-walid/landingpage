@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Navbar.css';
-import logo from '../images/GIGGERS (2).png'
+import logo from '../images/GIGGERS (2).png';
+import { Button } from '../Button/Button';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -70,7 +71,18 @@ function Navbar() {
                 Social Impact
               </Link>
             </li>
+            <li>
+              <Link
+                to='/sign-up'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+            </li>
           </ul>
+          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
+          {/* {button && <Button buttonStyle='btn--outline'>SIGN IN</Button>} */}
         </div>
       </nav>
     </>

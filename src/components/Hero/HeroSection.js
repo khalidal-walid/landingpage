@@ -19,7 +19,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          BE A GIG
+          GIGIFY YOUR CAREER
         </Button>
         <Button
           className='btns'
@@ -30,7 +30,7 @@ function HeroSection() {
             window.open('https://docs.google.com/forms/d/1SF5o4LyEvtesdQAqRTdilv6UXxL21LHXRlcRw2K9rVo/edit?usp=sharing', "_blank")
             }}
         >
-          HIRE GIG
+          GIGIFY YOUR BUSINESS
         </Button>
       </div>
     </div>

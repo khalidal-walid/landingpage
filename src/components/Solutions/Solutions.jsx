@@ -19,10 +19,10 @@ export default function Solutions() {
       id: "web",
       title: "Gigify Your Career",
     },
-    {
-      id: "pro",
-      title: "Professional Courses"
-    }
+    // {
+    //   id: "pro",
+    //   title: "Professional Courses"
+    // }
   ];
 
   useEffect(() => {
@@ -33,9 +33,9 @@ export default function Solutions() {
       case "web":
         setData(webPortfolio);
         break;
-      case "pro":
-        setData(proCourse);
-        break;
+      // case "pro":
+      //   setData(proCourse);
+      //   break;
       default:
         setData(featuredPortfolio);
     }
@@ -47,8 +47,9 @@ export default function Solutions() {
       <div className="hero">
         {data.map((d) => (
            <div className="item">
-            <h4>{d.titleHero}</h4>
-            <p>{d.descHero}</p>
+            {/* <h4>{d.titleHero}</h4> */}
+            {/* <p>{d.descHero}</p> */}
+            {/* <img>{d.imgGeneral}</img> */}
           </div>
         ))}
       </div>

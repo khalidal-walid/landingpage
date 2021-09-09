@@ -1,37 +1,48 @@
 .misvis {
   background-color: #00838a;
   width: 100%;
+  padding: 5em 8em;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 5em;
-  padding: 5em 8em;
-  /* background-color: #00838a; */
+  /* padding: 5em 8em; */
+  /* background-color: yellowgreen; */
 }
 
-.title h1 {
+.title {
   color: white;
-  padding-top: 1em;
+  margin-bottom: 2em;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* background-color: burlywood; */
 }
 
 .grid-item {
-  margin: 1em 0;
+  /* margin: 1em 0; */
   /* background-color: rgba(255, 255, 255, 0.8); */
   /* border: 1px solid white; */
   padding: 20px;
   /* font-size: 30px; */
   text-align: center;
   color: white;
+  /* background-color: burlywood; */
 }
 
-.grid-item h2 {
+.grid-item h1 {
   color: white;
-  margin-bottom: 1em;
 }
 
 .grid-item p {
   font-size: 2.2em;
+  margin-top: 1em;
+}
+
+.icon-containers {
+  font-size: 7em;
+  margin-bottom: 0.2em;
+  /* background-color: brown; */
 }

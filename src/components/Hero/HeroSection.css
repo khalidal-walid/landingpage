@@ -1,3 +1,7 @@
+button {
+  font-weight: 700;
+}
+
 video {
   object-fit: cover;
   width: 100%;
@@ -42,7 +46,7 @@ video {
 
 .hero-btns .btn {
   margin: 6px;
-  padding: 0.6em 5em;
+  padding: 1em 5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

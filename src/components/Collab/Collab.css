@@ -3,9 +3,10 @@
   background: #fff;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.collabs h3 {
+.collabs h1 {
   /* font-size: 2em; */
   color: #00838a;
   text-align: center;
@@ -15,27 +16,30 @@
 .collabs img {
   width: 10%;
   margin: 2em;
+  /* background-color: royalblue; */
 }
 
 .collabs__container {
+  /* display: grid; */
   display: flex;
-  flex-flow: row;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(4, 1fr); */
   justify-content: center;
-  /* max-width: 1120px; */
-  width: 90%;
-  margin: 0 auto;
+  /* max-width: 600px; */
+  /* width: 90%; */
+  /* margin: 0 auto; */
 }
 
 hr {
   size:2; 
-  /* width: 90%;  */
+  /* width: 100%;  */
 }
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
   }
-}
+} */
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
