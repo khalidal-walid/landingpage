@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
+  /* max-width: 1200px; */
 }
 
 .home,
@@ -21,7 +22,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: red;
+  /* color: red; */
   font-size: 100px;
 }
 

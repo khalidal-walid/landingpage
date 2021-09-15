@@ -19,10 +19,10 @@ export default function Solutions() {
       id: "web",
       title: "Gigify Your Career",
     },
-    // {
-    //   id: "pro",
-    //   title: "Professional Courses"
-    // }
+    {
+      id: "pro",
+      title: "Professional Courses"
+    }
   ];
 
   useEffect(() => {
@@ -124,7 +124,7 @@ export default function Solutions() {
         ))}
       </div> */}
       <div className="testimoni"> 
-      <h1>Testimonials from others</h1>
+      <h1>Testimonials</h1>
         {data.map((d) => (
           <div className="items">
             <div className="item-testimoni">

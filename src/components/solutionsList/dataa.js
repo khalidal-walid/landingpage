@@ -12,11 +12,11 @@ export const featuredPortfolio = [
       imgGeneral: "https://i.postimg.cc/3rGg8GCb/1.png",
 
       titleSpecific: 'Why Ours Different?',
-      benefitSpecific: "Live chat",
+      benefitSpecific: "1. Live chat",
       descSpecific: "You can have live chat with your gigs to ask questions, share feedback and get constant updates on the progress of your work.",
-      benefitSpecific2: "Pay with confidence",
+      benefitSpecific2: "2. Pay with confidence",
       descSpecific2: "Pay safely and securely in our system. Only release payments when you are satisfied with the work.",
-      benefitSpecific3: "24/7 support",
+      benefitSpecific3: "3. 24/7 support",
       descSpecific3: "We're always here to help. Our representatives are available 24/7 to assist you with any issues.",
       imgSpecific: "https://i.postimg.cc/xdMqMvxX/2.png",
 
@@ -44,11 +44,11 @@ export const featuredPortfolio = [
       imgGeneral: "https://i.postimg.cc/3wbXL52k/3.png",
 
       titleSpecific: 'Why Ours Different?',
-      benefitSpecific: "Higher commission earnings",
+      benefitSpecific: "1. Higher commission earnings",
       descSpecific: "Simply post a project or contest for what you need to be done and receive competitive bids from gigs within minutes.",
-      benefitSpecific2: "Reduce the risk of getting scammed by clients",
+      benefitSpecific2: "2. Reduce the risk of getting scammed by clients",
       descSpecific2: "Simply post a job for what you need to be done and receive competitive bids from gigs within minutes.",
-      benefitSpecific3: "Scale your expertise with our professional courses",
+      benefitSpecific3: "3. Scale your expertise with our professional courses",
       descSpecific3: "Simply post a project or contest for what you need to be done and receive competitive bids from gigs within minutes.",
       imgSpecific: "https://i.postimg.cc/sx0Cx2WV/4.png",
 

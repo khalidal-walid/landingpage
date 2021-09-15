@@ -31,7 +31,7 @@
 
 .btn--large {
   padding: 12px 26px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .btn--large:hover,
@@ -41,4 +41,8 @@
   /* color: #242424; */
   opacity: 0.8;
   transition: 250ms;
+}
+
+@media (max-width: 1024px) {
+
 }

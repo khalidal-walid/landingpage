@@ -29,7 +29,7 @@ function Timeline() {
           iconStyle={{ background: '#00838a', color: '#fff', boxShadow: '0 0 0 4px #1a1a1a, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05)' }}
           // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">One of the contenders Malaysian Global Innovation Centre University Startup Challenge 2021</h3>
+          <h3 className="vertical-timeline-element-title">One of the contenders for Malaysian Global Innovation Centre University Startup Challenge 2021</h3>
           {/* <h4 className="vertical-timeline-element-subtitle">July 2021</h4> */}
           {/* <p>
             Creative Direction, User Experience, Visual Design, Project Management, Team Leading

@@ -11,41 +11,43 @@ img {
   align-items: center;
   margin-bottom: 10rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  .item-wrapper {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.item-wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;  
+}
+
+.tajuk {
+  width: 100%;
+  text-align: center;
+  color: darkgray;
+  margin-bottom: 1em;
+}
+
+h1 {
+  // font-size: 2em;
+  color: #00838a;
+
+  @include mobile{
+    font-size: 20px;
   }
+}
 
-  .tajuk {
-    width: 100%;
-    text-align: center;
-    color: darkgray;
-    margin-bottom: 1em;
-  }
+// .portfolio ul {
+//   margin: 10px 1em;
+//   padding: 1em 2em;
+//   list-style: none;
+//   display: flex;
+//   background-color: rosybrown;
 
-  h1 {
-    // font-size: 2em;
-    color: #00838a;
-
-    @include mobile{
-      font-size: 20px;
-    }
-  }
-
-  ul {
-    margin: 10px 1em;
-    padding: 1em 2em;
-    list-style: none;
-    display: flex;
-
-    @include mobile{
-      margin: 10px 0;
-      // flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
+//   @include mobile{
+//     margin: 10px 0;
+//     // flex-wrap: wrap;
+//     justify-content: center;
+//   }
+// }
 
   .container {
     width: auto;
@@ -117,4 +119,4 @@ img {
       // }
     }
   }
-}
+

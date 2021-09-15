@@ -13,7 +13,7 @@ function misvis() {
         </div>
         <div class="grid-item">
           <h1>Our Vision</h1>
-          <p>To be the platform of choice for business owners and gigs in South East Asia.</p>
+          <p>To be a platform of choice for business owners and gigs in South East Asia.</p>
         </div>
       </div>
       </div>

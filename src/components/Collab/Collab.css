@@ -1,9 +1,10 @@
 .collabs {
-  padding: 4rem 10rem;
+  padding: 4rem 40rem;
   background: #fff;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .collabs h1 {
@@ -16,7 +17,6 @@
 .collabs img {
   width: 10%;
   margin: 2em;
-  /* background-color: royalblue; */
 }
 
 .collabs__container {
@@ -25,6 +25,7 @@
   flex-wrap: wrap;
   /* grid-template-columns: repeat(4, 1fr); */
   justify-content: center;
+  margin-top: 3em;
   /* max-width: 600px; */
   /* width: 90%; */
   /* margin: 0 auto; */
@@ -32,7 +33,6 @@
 
 hr {
   size:2; 
-  /* width: 100%;  */
 }
 
 /* @media only screen and (min-width: 1200px) {
@@ -41,14 +41,14 @@ hr {
   }
 } */
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
+@media screen and (max-width: 1024px) {
+  .collabs img {
+    width: 20%;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+@media screen and (max-width: 768px) {
+  .collabs img {
+    width: 30%;
   }
 }

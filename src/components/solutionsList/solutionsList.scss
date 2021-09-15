@@ -10,7 +10,8 @@
   border: 1px solid $mainColor;
 
   @include mobile{
-    margin-right: 20px;
+    padding: 10px 30px;
+    font-size: 11px;
   }
 
   &.active {

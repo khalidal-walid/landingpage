@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flippy, { FrontSide, BackSide } from './../flipList';
-import Rick from './rick.png';
+// import Rick from './rick.png';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin} from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +12,7 @@ const FlippyStyle = {
   textAlign: 'center',
   color: 'black',
   fontSize: '10px',
-  justifyContent: 'center',
+  justifyContent: 'center'
 }
 
 
@@ -29,7 +29,7 @@ const DefaultCardContents = ({ children }) => (
         src={Rick}
         style={{ maxWidth: '100%', maxHeight: '100%' }}
       /> */}
-      <h1 className='icon-container'><FontAwesomeIcon icon={faChalkboardTeacher} color='black' /> </h1>
+      <h1 className='flip-container icon-container'><FontAwesomeIcon icon={faChalkboardTeacher} color='black' /> </h1>
       <h1>Kita Jaga Kita</h1>
     </FrontSide>
     <BackSide
@@ -65,7 +65,7 @@ const DefaultCardContents2 = ({ children }) => (
         src={Rick}
         style={{ maxWidth: '100%', maxHeight: '100%' }}
       /> */}
-      <h1 className='icon-container'><FontAwesomeIcon icon={faFileSignature} color='black' /> </h1>
+      <h1 className='flip-container icon-container'><FontAwesomeIcon icon={faFileSignature} color='black' /> </h1>
       <h1>Resume Workshop</h1>
     </FrontSide>
     <BackSide
@@ -101,7 +101,7 @@ const DefaultCardContents3 = ({ children }) => (
         src={Rick}
         style={{ maxWidth: '100%', maxHeight: '100%' }}
       /> */}
-      <h1 className='icon-container'><FontAwesomeIcon icon={faQuoteRight} color='black' /> </h1>
+      <h1 className='flip-container icon-container'><FontAwesomeIcon icon={faQuoteRight} color='black' /> </h1>
       <h1>Acing An Interiew</h1>
     </FrontSide>
     <BackSide
@@ -137,7 +137,7 @@ const DefaultCardContents4 = ({ children }) => (
         src={Rick}
         style={{ maxWidth: '100%', maxHeight: '100%' }}
       /> */}
-      <h1 className='icon-container'><FontAwesomeIcon icon={faLinkedin} color='black' /> </h1>
+      <h1 className='flip-container icon-container'><FontAwesomeIcon icon={faLinkedin} color='black' /> </h1>
       <h1>LinkedIn 101</h1>
     </FrontSide>
     <BackSide

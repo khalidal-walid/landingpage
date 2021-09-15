@@ -8,8 +8,7 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 5em;
-  /* padding: 5em 8em; */
-  /* background-color: yellowgreen; */
+  padding: 1em 10em;
 }
 
 .title {
@@ -18,7 +17,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* background-color: burlywood; */
 }
 
 .grid-item {
@@ -29,7 +27,6 @@
   /* font-size: 30px; */
   text-align: center;
   color: white;
-  /* background-color: burlywood; */
 }
 
 .grid-item h1 {
@@ -43,6 +40,21 @@
 
 .icon-containers {
   font-size: 7em;
-  margin-bottom: 0.2em;
-  /* background-color: brown; */
+  margin-bottom: 0.3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+  }
+
+  .grid-item h1 {
+    font-size: 1.3em;
+    /* padding: 1em; */
+  }
+
+  .grid-item p {
+    font-size: 1.3em;
+  }
 }

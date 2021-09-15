@@ -11,7 +11,7 @@ function Cardss() {
       <div className='cardss__container'>
         <div className='cardss__wrapper'>
           <ul className='cardss__item'>
-            <div className='container'>
+            <div className='containerr'>
               <h1 className='icon-container'><FontAwesomeIcon icon={faUsers} color='black' /> </h1>
               <CardItem2
                 // src={bg3}

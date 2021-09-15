@@ -1,5 +1,4 @@
-iframe 
-{
+iframe {
  /* display: block;  */
  height: 80vh;
  width: 80%; 
@@ -7,4 +6,10 @@ iframe
  /* overflow-y: auto;  */
  /* overflow-x: hidden; */
  padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  iframe {
+    height: 50vh;
+  }
 }

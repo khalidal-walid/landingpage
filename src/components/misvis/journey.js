@@ -8,18 +8,18 @@ function journey() {
   return(
     <div class="card-container misvis">
       <div className='title'>
-        <h1>Our Journey</h1>
+        {/* <h1>Our Journey</h1> */}
       </div>
       <div class="u-clearfix">
       <div class="grid-container">
         <div class="grid-item">
-          <h1 className='icon-containers'><FontAwesomeIcon icon={faComments} color='white' /> </h1>
-          <h2>Customers Served</h2>
+          <h2 className='icon-containers'><FontAwesomeIcon icon={faComments} color='white' /> </h2>
+          <h1>Customers Served</h1>
           <p>57</p>
         </div>
         <div class="grid-item">
-          <h1 className='icon-containers'><FontAwesomeIcon icon={faSmile} color='white' /> </h1>
-          <h2>Service Satisfaction Rate</h2>
+          <h2 className='icon-containers'><FontAwesomeIcon icon={faSmile} color='white' /> </h2>
+          <h1>Service Satisfaction Rate</h1>
           <p>100%</p>
         </div>
       </div>
